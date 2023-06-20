@@ -1,4 +1,4 @@
- targetDate = new Date('2023-05-27').getTime() //Update target date here
+ targetDate = new Date('2023-06-27').getTime() //Update target date here
 
 countDown = setInterval(()=>{
     let currentDate = new Date() //gets current date
@@ -17,10 +17,10 @@ countDown = setInterval(()=>{
     if(distanceLeft < 0) {
         clearInterval(countDown);
         document.querySelector('.heading-text').innerHTML = "COUNTDOWN EXPIRED";
-        document.querySelector('.days').innerHTML = 00;
-        document.querySelector('.hours').innerHTML = 00;
-        document.querySelector('.minutes').innerHTML = 00;
-        document.querySelector('.seconds').innerHTML = 00;
+        document.querySelector('.days').innerHTML = '00';
+        document.querySelector('.hours').innerHTML = '00';
+        document.querySelector('.minutes').innerHTML = '00';
+        document.querySelector('.seconds').innerHTML = '00';
     
     }
 
